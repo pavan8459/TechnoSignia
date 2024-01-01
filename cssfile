@@ -1,0 +1,170 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the header and navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the hero section */
+section#home {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+section#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section#home p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+section#home a {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style the features section 
+section#features {
+    background-color: #ddd;
+    padding: 50px;
+}
+
+section#features h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section#features .feature {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+section#features .feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+*/
+
+/* ... previous CSS styles ... */
+
+/* Updated styles for enhanced key features */
+section#features {
+    background-color: #ddd;
+    padding: 50px;
+    text-align: center;
+}
+
+section#features h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section#features .feature {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+section#features .feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section#features .feature p {
+    font-size: 1.1em;
+}
+
+
+
+/* Style the pricing section */
+section#pricing {
+    background-color: #ccc;
+    padding: 50px;
+}
+
+section#pricing h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section#pricing .plan {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+section#pricing .plan h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style the contact form section */
+section#contact {
+    background-color: #bbb;
+    padding: 50px;
+    text-align: center;
+}
+
+section#contact h2 {
+    margin-bottom: 30px;
+}
+
+section#contact form input,
+section#contact form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+section#contact form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Add more styles and customizations as needed */

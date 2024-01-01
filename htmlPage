@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taskify - Task Management Application</title>
-    <!-- Link your CSS file -->
+   
     <link rel="stylesheet" href="cssdemo.css">
-    <!-- Link Material-UI CSS if used -->
-    <!-- Your custom CSS file (if any) -->
+    
 </head>
 
 <body>
@@ -27,22 +26,13 @@
     <!-- Hero Section -->
     <section id="home">
         <h1>Welcome to Taskify</h1>
-        <p>Your brief introduction here...</p>
+        <p>Taskify is your ultimate solution for organizing tasks, deadlines, and projects with ease. Whether you're an individual looking to manage personal tasks or a team collaborating on projects, Taskify simplifies your workflow.</p>
         <a href="#signup">Get Started</a>
     </section>
 
-    <!--
-    
-     
-    <section id="features">
-        <h2>Key Features</h2>
-        <div class="feature">
-            <h3>User-friendly Interface</h3>
-            <p>Effortlessly manage tasks with our intuitive interface.</p>
-        </div>
-    -->
+   
         <!-- Add more features -->
-  <!-- </section>--> 
+
    
   <!-- Features Section -->
 <section id="features">

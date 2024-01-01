@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskify - Task Management Application</title>
+    <!-- Link your CSS file -->
+    <link rel="stylesheet" href="cssdemo.css">
+    <!-- Link Material-UI CSS if used -->
+    <!-- Your custom CSS file (if any) -->
+</head>
+
+<body>
+    <!-- Header with Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h1>Welcome to Taskify</h1>
+        <p>Your brief introduction here...</p>
+        <a href="#signup">Get Started</a>
+    </section>
+
+    <!--
+    
+     
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <h3>User-friendly Interface</h3>
+            <p>Effortlessly manage tasks with our intuitive interface.</p>
+        </div>
+    -->
+        <!-- Add more features -->
+  <!-- </section>--> 
+   
+  <!-- Features Section -->
+<section id="features">
+    <h2>Key Features</h2>
+    <div class="feature">
+        <h3>User-friendly Interface</h3>
+        <p>Effortlessly manage tasks with our intuitive interface.</p>
+    </div>
+    <div class="feature">
+        <h3>Task Prioritization</h3>
+        <p>Set priority levels for tasks to focus on what matters most.</p>
+    </div>
+    <div class="feature">
+        <h3>Project Organization</h3>
+        <p>Categorize tasks into different projects for better organization.</p>
+    </div>
+    <div class="feature">
+        <h3>Deadline Reminders</h3>
+        <p>Receive timely notifications for upcoming task deadlines.</p>
+    </div>
+    <!-- Add more features -->
+</section>
+
+  
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="plan">
+            <h3>Basic Plan</h3>
+            <p>Free</p>
+        </div>
+        <!-- Add more plans -->
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Your JavaScript scripts -->
+    <script src="App.js"></script>
+</body>
+
+</html>
